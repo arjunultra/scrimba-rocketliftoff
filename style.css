@@ -47,6 +47,7 @@ p {
 }
 .rocket-animate {
   animation: fly 5s ease-in;
+  animation-fill-mode: forwards;
 }
 @keyframes fly {
   0% {
